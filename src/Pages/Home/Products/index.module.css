@@ -1,0 +1,96 @@
+.productCard {
+  background-color: white;
+  width: 300px;
+  height: 380px;
+  box-shadow: 0px 0px 10px 0px #888888;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+.productCard p {
+  flex: 1;
+  font-size: medium;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+}
+.cardImg {
+  object-fit: contain;
+  height: 200px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 5px;
+  cursor: pointer;
+}
+.pagination div {
+  border: 1px solid rgb(4, 4, 47);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  background-color: rgb(254, 189, 68);
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+}
+.cont {
+  display: flex;
+  gap: 40px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.side {
+  border-radius: 20px;
+  width: 400px;
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.cardLink {
+  text-decoration: none;
+  color: darkblue;
+}
+.orangeColor {
+  background-color: rgb(223, 97, 50);
+  color: white;
+}
+.addbtn {
+  background-color: orange;
+  color: rgb(9, 9, 97);
+  border-radius: 40px;
+}
+
+.addprice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scale:hover {
+  transform: scale(2);
+  transform: scale(5.2) translateX(-40px);
+}
+.scale {
+  padding: 10px;
+}

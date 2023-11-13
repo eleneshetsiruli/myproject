@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.cartIcon {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  cursor: pointer;
+  width: 60px;
+}
+.cartlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+}
+.delbtn {
+  position: absolute;
+  top: 0;
+  width: 25px;
+  background-color: rgb(213, 60, 60);
+  right: 0;
+  color: white;
+}
+.relative {
+  position: relative;
+}
+
+.editProf {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 300px;
+}
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.con h3 {
+  margin-bottom: 50px;
+  color: rgb(159, 47, 6);
+}
+.okbtn {
+  align-self: center;
+  background-color: rgb(246, 100, 47);
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1633174524827-db00a6b7bc74?q=80&w=2992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.filterOption {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
